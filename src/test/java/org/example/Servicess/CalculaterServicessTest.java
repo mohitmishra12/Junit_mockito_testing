@@ -13,4 +13,24 @@ public class CalculaterServicessTest {
         Assertions.assertEquals(expected,result);
     }
 
+    @Test
+    public void productTwoNumberTest(){
+        int result = CalculaterServicess.productTwoNumber(12,12);
+        int expected = 144;
+        Assertions.assertEquals(expected,result);
+    }
+
+    @Test
+    public void sumAnyNumberTest(){
+        int result = CalculaterServicess.sumAnyNumber(1,2,3,5,6);
+        int expected = 17;
+        Assertions.assertEquals(expected,result);
+    }
+
+    public void AddFlotValueTest(){
+        float result = CalculaterServicess.AddFlotValue(12.50F, 12.50F);
+        int expected = 50;
+        Assertions.assertEquals(expected,result);
+    }
+
 }

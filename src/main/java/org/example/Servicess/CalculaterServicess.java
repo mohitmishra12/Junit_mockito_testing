@@ -21,4 +21,8 @@ public class CalculaterServicess {
         return s;
 
     }
+    public static float AddFlotValue(float a, float b){
+        return a + b;
+    }
+
 }
